@@ -1,8 +1,8 @@
 # Usar una imagen base de Eclipse Temurin Java 23
 FROM eclipse-temurin:23-jdk
 
-#COPY target/rifa-0.0.1-SNAPSHOT.jar java-app.jar
-COPY target/app.jar java-app.jar
+COPY target/rifa-0.0.1-SNAPSHOT.jar java-app.jar
+#COPY target/app.jar java-app.jar
 
 
 # Exponer el puerto 8080
